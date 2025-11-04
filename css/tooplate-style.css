@@ -1100,3 +1100,52 @@ http://www.tooplate.com/view/2098-health
 
   }
 
+/* ========== MOBILE FIXES ========== */
+@media (max-width: 768px) {
+
+  header p, header span {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .navbar-header {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    display: block;
+    float: none;
+  }
+
+  .about-info, .news-detail-thumb, .team-thumb {
+    text-align: center;
+  }
+
+  #about {
+    background-position: center;
+    background-size: cover;
+    padding: 60px 15px;
+  }
+
+  #about p {
+    font-size: 16px;
+  }
+
+  .team-thumb img, .news-thumb img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-4, footer .col-md-6, footer .col-md-2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-thumb h4 {
+    margin-top: 10px;
+  }
+}
